@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videosdk.live RTC</title>
+  </head>
+  <body>
+    <script>
+    function createMeeting() {
+      let meetingId =  'xxxxyxxx'.replace(/[xy]/g, function(c) {
+          var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+          return v.toString(16);
+      });
+      window.location.href = "http://"+window.location.host+"?meetingId="+meetingId;
+    }
+  </script>
+  <button onclick="">Create Meeting</button>
+
+  </body>
+</html>
