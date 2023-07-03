@@ -1,71 +1,17 @@
-# Video SDK Javascript App
+# E-Learning Website Using PHP and MySQL
 
 ## What is it?
+The purpose of E-learning website is to automate the existing manual system by the help of computerized equipment's and full-fledged computer software, fulfilling
+their requirements, so that their valuable data/information can be stored for a longer period with easy accessing and manipulation of the same. The required software and hardware are easily available and easy to work with. E-learning Website, as described above, can lead to error free, secure, reliable and fast management system.
+It can assist the user to concentrate on their other activities rather to concentrate on the record keeping. Thus it will help organization in better utilization of resources.The organization can maintain computerized records without redundant entries. Thatmeans that one need not be distracted by information that is not relevant, while being able to reach the information. It may help collecting perfect management in details. In a very short time, the collection will be obvious, simple and sensible. It will help a person to know the management of passed year perfectly and vividly. It also helps in current all works relative to E-learning Management System. It will be also reduced the cost of collecting the management & collection procedure will go on smoothly.
 
-This code sample demonstrates a one-to-one and group video call application built with [Video SDK RTC Javascript SDK](https://docs.videosdk.live/docs/guide/video-and-audio-calling-api-sdk/javascript-sdk)
+## LIST OF MODULES
+• Home
+• Courses
+• Programs
+• Members
+• Meeting
+• Contact us
 
-- Built for serverless video calling experience.
-- Scale it upto 5,000 participants with low code.
-- 10,000 minutes free on monthly basis
-
-## Features
-
-- [x] Video API with real-time audio, video and data streams
-- [x] 5,000+ participants support
-- [x] Chat support with rich media.
-- [x] Screen sharing with HD and Full HD.
-- [x] Play realtime video in meeting
-- [x] Connect it with social media such as Facebook, Youtube etc (RTMP out support).
-- [x] Intelligent speaker switch
-- [x] Record your meetings on cloud
-- [x] Customise UI and built other rich features with our new data streams such as whiteboard, poll, Q & A etc.
-
-## Prerequisites
-
-You must have the following installed:
-
-- Node.js v12+
-- NPM v6+ (comes pre-installed with newer Node versions)
-
-## Getting started
-
-1. Run the authentication server
-
-   Follow instructions from [videosdk-rtc-nodejs-sdk-example](https://github.com/videosdk-live/videosdk-rtc-nodejs-sdk-example) to run the authentication server.
-
-2. Clone the repo
-
-   ```sh
-   git clone https://github.com/videosdk-live/videosdk-rtc-javascript-sdk-example.git
-
-   cd videosdk-rtc-javascript-sdk-example
-   ```
-
-3. Create a new file config.js and Copy the config.example.js file's data to config.js file
-
-4. Update the TOKEN in `config.js` file.Token would be generated from dashboard `https://app.videosdk.live/dashboard`
-
-   ```
-   TOKEN="Your Token Here"
-   ```
-
-5. If one doesn't want to give their token then they can generate token using AUTH_URL of their own in `config.js` file
-
-   ```
-   AUTH_URL=one's auth url
-   ```
-
-6. Run the app
-
-   ```sh
-   npm install -g live-server
-   live-server --port=8000
-   ```
-
-For more information, visit [official documentation](https://docs.videosdk.live/docs/guide/video-and-audio-calling-api-sdk/getting-started)
-
-Related
-
-- [Video SDK RTC Prebuillt No Code App](https://github.com/videosdk-live/videosdk-rtc-js-prebuilt-embedded-example)
-- [Video SDK RTC React Native App](https://github.com/videosdk-live/videosdk-rtc-react-native-sdk-example)
-- [Video SDK RTC Node JS API](https://github.com/videosdk-live/videosdk-rtc-nodejs-sdk-example)
+## CONCLUSION 
+To conclude the description about the project, the project, developed Using HTML, CSS, BOOTSTRAP, PHP with My SQL is based on the analysis of the existing system, with flexibility for future enhancement. “QUICK LEARNER-A ELEARNING WEBSITE” is very useful for learning . This website is designed for students who want to study virtually. Students can learn the courses from e learning website. Main motive to making this projects to help students to learn and start studying through this site anywhere and anytime. This particular projects help people to save more time for educations and avoids the problems which occur when carried manually.
